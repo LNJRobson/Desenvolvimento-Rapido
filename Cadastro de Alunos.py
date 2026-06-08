@@ -28,7 +28,7 @@ def cadastrar():
         av1 = float(entrada_av1.get())
         av2 = float(entrada_av2.get())
     except:
-        messagebox.showerror("Erro", "Digitenotas válidas")
+        messagebox.showerror("Erro", "Digite notas válidas")
         return
     if nome == "" or matricula == "":
         messagebox.showwarning("Atenção", "Preencha todos os campos!")
